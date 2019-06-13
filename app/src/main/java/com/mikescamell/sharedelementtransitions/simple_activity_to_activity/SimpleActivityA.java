@@ -24,12 +24,12 @@ public class SimpleActivityA extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               /* Intent intent = new Intent(SimpleActivityA.this, SimpleActivityB.class);
+                Intent intent = new Intent(SimpleActivityA.this, SimpleActivityC.class);
                 ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(
                         SimpleActivityA.this,
                         imageView,
                         ViewCompat.getTransitionName(imageView));
-                startActivity(intent, options.toBundle());*/
+                startActivity(intent, options.toBundle());
             }
         });
 
