@@ -11,7 +11,6 @@
     <fragment
         android:id="@+id/fragment"
         android:name="com.mikescamell.sharedelementtransitions.simple_activity_to_activity.SimpleFragmentC"
-        android:transitionName="@string/simple_activity_transition"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
